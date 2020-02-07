@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/5964013a93.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Burger Vegan</title>
+</head>
+<body id="home">
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Burger Vegan</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>
+                    Burger masa depan
+                </h1>
+                <p>Burger dengan daging sintetik serasa daging asli, tidak percaya? Silahkan datang dan coba, GRATIS!</p>
+                <a href="https://www.google.com/maps/search/burger/@-6.2136835,106.7261459,13z/data=!3m1!4b1" target="_blank" class="btn">Cari Kami</a>
+            </div>
+            <img src="img/122.jpg" alt="" />
+        </div>
+    </section>
+
+    <!-- Overlay Text  -->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Gurih & Nikmat</h3>
+                <h2>95 dari 100 tidak bisa membedakan daging kami dengan daging asli</h2>
+                <p>5 lagi bilang ini burger paling enak yang mereka pernah makan</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery  -->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="https://i.ibb.co/mz3mmGV/1.jpg" class="big"
+          ><img src="https://i.ibb.co/mz3mmGV/1.jpg" alt=""
+        /></a>
+        <a href="https://i.ibb.co/D9j4PVL/2.jpg" class="big"
+          ><img src="https://i.ibb.co/D9j4PVL/2.jpg" alt=""
+        /></a>
+        <a href="https://i.ibb.co/V2Bnr0T/12.jpg" class="big"
+          ><img src="https://i.ibb.co/V2Bnr0T/12.jpg" alt=""
+        /></a>
+        <a href="https://i.ibb.co/72srXq8/5.jpg" class="big"
+          ><img src="https://i.ibb.co/72srXq8/5.jpg" alt=""
+        /></a>
+        <a href="https://i.ibb.co/MfkrtNX/burger-2.png" class="big">
+          <img src="https://i.ibb.co/MfkrtNX/burger-2.png" alt=""
+        /></a>
+        <a href="https://i.ibb.co/gzSmpzC/4.jpg" class="big"
+          ><img src="https://i.ibb.co/gzSmpzC/4.jpg alt=""
+        /></a>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Hardiyan Rajadi</h2>
+                <a href="https://github.com/nywangga" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </div>
+            <div>
+                <h3>Info Lanjut</h3>
+                <ul>
+                    <li><a href="#">Semua Produk</a></li>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Kebijakan</a></li>
+                    <li><a href="#">Ketentuan Layanan</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog</h3>
+                    <ul>
+                <li><a href="#">Burger dengan daging buatan.</a></li>
+                <li><a href="#">Singkong goreng lebih sehat!</a></li>
+                <li><a href="#">Coca-cola tanpa gula?</a></li>
+                <li><a href="#">Mayonais tanpa minyak yang lagi tren</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <p>Kami akan kirimkan promo-promo paling menarik lewat email anda</p>
+                <form name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input 
+                                type="email"
+                                name="email"
+                                id="email"
+                                size="40"
+                                class="form-control"
+                                placeholder="Email"
+                            />
+                        </span>
+                        <button type="submit" class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function() {
+            const $gallery = $('.gallery a').simpleLightbox();
+        })
+    </script>
+</body>
+</html>
